@@ -17,8 +17,11 @@ let newArray = [];
 // Call the isTrainee function for each value
 // add each name to the new array only if the name is NOT a mentor
 
-
-
+for (let a = 0; a < namesList.length; a++){
+    if(isTrainee(namesList[a])){
+        newArray.push(namesList[a]);
+    }
+}
 
 
 console.log("Answer should be Aria, Brian, Candice, Sunesh");

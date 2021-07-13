@@ -7,7 +7,8 @@ for(let i = 0; i < namesList.length; i++){
 }
 
 // First, declare an array with the names of the trainees in your breakout room
-
-
+let traineesArr = ["Israel", "Alejandro", "Ariel", "Marco", "Kristian", "Josue"]
 // Then, write a "for" loop to say hello to each trainee
-
+for (let a = 0; a < traineesArr.length; a++){
+    console.log("Hello dear", traineesArr[a]);
+}

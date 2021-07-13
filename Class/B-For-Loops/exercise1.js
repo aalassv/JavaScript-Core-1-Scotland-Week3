@@ -7,4 +7,6 @@ for(let i = 0; i < 5; i++){
 
 // Write your own "for" loop below to print "Goodbye" 6 times
 
-
+for (let a = 0; a < 6; a++){
+    console.log("Goodbye");
+}
